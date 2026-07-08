@@ -2,7 +2,7 @@
 A low-cost DIY Hakko T12 tip heater assembled using commonly available parts.
 
 ## Schematics & PCB Layout
-Here is the schematic of the control circuit.
+Here is the schematic of the control circuit. The component list can be downloaded from [here](https://github.com/sreenand48/Compact_Arduino_T12_Controller/blob/main/T12_BOM.csv)
 <img src="https://raw.githubusercontent.com/sreenand48/Compact_Arduino_T12_Controller/refs/heads/main/Schematic.png" alt="Front" width="720"> 
 
 Here is my compact layout that I made on a perf board
@@ -43,8 +43,6 @@ Here is the T12 tip Pinout.
 
 
 ## Code
-
-Fenced code blocks support syntax highlighting:
 
 ```c
 #include <Wire.h>
