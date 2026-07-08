@@ -6,6 +6,7 @@ Here is the schematic of the control circuit.
 <img src="https://raw.githubusercontent.com/sreenand48/Compact_Arduino_T12_Controller/refs/heads/main/Schematic.png" alt="Front" width="720"> 
 
 Here is my compact layout that I made on a perf board
+
 <img src="https://raw.githubusercontent.com/sreenand48/Compact_Arduino_T12_Controller/refs/heads/main/Images/Image1.jpeg" alt="Front" width="180"> 
 <img src="https://raw.githubusercontent.com/sreenand48/Compact_Arduino_T12_Controller/refs/heads/main/Images/Image2.jpeg" alt="Front" width="180"> 
 <img src="https://raw.githubusercontent.com/sreenand48/Compact_Arduino_T12_Controller/refs/heads/main/Images/Image3.jpeg" alt="Front" width="180"> 
