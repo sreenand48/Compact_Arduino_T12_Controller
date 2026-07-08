@@ -1,5 +1,7 @@
 # Compact_Arduino_T12_Controller
 A low-cost DIY Hakko T12 tip heater assembled using commonly available parts.
+Only specialized components are the T12 Tip, T12 Handle and GX12 socket.
+
 
 ## Schematics & PCB Layout
 Here is the schematic of the control circuit. The component list can be downloaded from [here](https://github.com/sreenand48/Compact_Arduino_T12_Controller/blob/main/T12_BOM.csv)
@@ -19,7 +21,7 @@ Here is my compact layout that I made on a perf board
 - The current PID values are extremely conservative. Additional tuning may be required based on tip unsigned
 - The main MOSFET does not require a heatsink, but the LM7805 regulator will require a heatsink especially is an LCD with backlight is unsigned
 - Simple DuPont connectors can be used to connect the arduino and LCD, but the main power rails need extra solder for current carrying capacity upto 3 Amps
-- The female GX12 connector should have atleast 3 pins
+- The female GX12 connector should have atleast 3 pins and match up to the T12 handle socket
 
 ## Power Chart
 
@@ -206,3 +208,13 @@ void loop() {
 }
 
 ```
+
+
+## Additional Thanks
+I would like the thank the following creators who helped and inspired the design of the T12 Controller
+- [Stefan Wagner](https://github.com/wagiminator/ATmega-Soldering-Station)
+- [Aka Kasyan TV](https://www.youtube.com/watch?v=UL6iDRJcY4I)
+- [Electronoobs](https://electronoobs.com/tutorial/portable-arduino-soldering-iron-v3)
+- [HomeMade Projects](https://www.youtube.com/watch?v=6qfoCy1P5nM)
+- [Marco Reps](https://www.youtube.com/watch?v=GYIiOkr6x9o)
+- [Great Scott!](https://www.youtube.com/watch?v=UvH49nzpJts)
