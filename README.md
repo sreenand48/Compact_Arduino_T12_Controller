@@ -218,3 +218,11 @@ I would like the thank the following creators who helped and inspired the design
 - [HomeMade Projects](https://www.youtube.com/watch?v=6qfoCy1P5nM)
 - [Marco Reps](https://www.youtube.com/watch?v=GYIiOkr6x9o)
 - [Great Scott!](https://www.youtube.com/watch?v=UvH49nzpJts)
+
+
+## Additional Improvements
+
+- Use a few buttons to add additional features like sleep, internal calibration, and emergency stop
+- Use a boost converter to power the MOSFET gate instead of the bootstrap capacitor for better true 100 percent power delivery
+- Use a mini buck converter before the linear regulator for more efficiency and removing heatsink
+- 3D Print a case and utilize standard barrel connectors for circuit board Vcc
